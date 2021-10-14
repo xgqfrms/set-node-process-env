@@ -1,0 +1,39 @@
+{
+  "name": "set-node-process-env",
+  "version": "0.0.1",
+  "description": "set node.js process env for PORT_ENV",
+  "author": "xgqfrms",
+  "license": "MIT",
+  "keywords": [
+    "node.js process.env",
+    "set node process env",
+    "NODE_ENV",
+    "PORT_ENV",
+    "ENV",
+    "snpe"
+  ],
+  "scripts": {
+    "snpe": "snpe"
+  },
+  "bin": {
+    "snpe": "snpe"
+  },
+  "main": "build/index.min.js",
+  "files": [
+    "build/index.min.js",
+    "snpe",
+    "env.js",
+    ".editorconfig",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://set-node-process-env.xgqfrms.xyz/index.html#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/set-node-process-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgqfrms/set-node-process-env/issues"
+  }
+}
