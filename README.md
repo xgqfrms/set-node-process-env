@@ -26,9 +26,9 @@ $ snpe PORT_ENV=8090
 
 ```js
 // webpack.config.js
-const PORT = process.env.PORT_ENV || 8080;
+const PORT_ENV = process.env.PORT_ENV || 8080;
 
-console.log('PORT_ENV =', process.env.PORT_ENV);
+console.log('PORT_ENV =', PORT_ENV);
 
 // const ip = require('ip');
 // const hostIp = ip.address();
@@ -37,7 +37,7 @@ const config = {
   devServer: {
     // ...
     // host: hostIp,
-    port: PORT_ENV || 8080,
+    port: PORT_ENV,
     proxy: [
       {
         context: ['/web/api/'],
